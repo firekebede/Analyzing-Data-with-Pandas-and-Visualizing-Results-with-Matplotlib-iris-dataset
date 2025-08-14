@@ -1,50 +1,6 @@
-Iris Dataset Analysis and Visualization
-Overview
-This project demonstrates basic data analysis and visualization in Python using the Iris dataset.
-It covers:
+Iris Dataset Analysis
+This project uses the Iris dataset to demonstrate basic data analysis and visualization in Python. It starts by loading and exploring the dataset, checking for missing values, and cleaning the data if necessary. Basic statistics such as mean, median, and standard deviation are calculated, and the data is grouped by species to find average measurements.
 
-Loading and exploring a dataset
+The project also includes several visualizations to better understand the dataset. These include a line chart showing trends, a bar chart comparing average petal lengths across species, a histogram showing the distribution of sepal widths, and a scatter plot showing the relationship between sepal length and petal length. All plots are customized with titles, axis labels, and legends for clarity.
 
-Cleaning missing data
-
-Computing basic statistics
-
-Grouping and summarizing
-
-Creating multiple visualizations (Line, Bar, Histogram, Scatter)
-
-Features
-Error Handling for dataset loading
-
-Exploratory Data Analysis (EDA)
-
-Polymorphic visualizations using matplotlib and seaborn
-
-Four custom plots with titles, labels, and legends
-
-Requirements
-Install the required libraries:
-
-bash
-Copy
-Edit
-pip install pandas matplotlib seaborn scikit-learn
-How to Run
-Save the Python script as iris_analysis.py.
-
-Run it in your terminal:
-
-bash
-Copy
-Edit
-python iris_analysis.py
-View the printed dataset info and the displayed plots.
-
-Visualizations Generated
-Line Chart – Sepal length trend over samples
-
-Bar Chart – Average petal length per species
-
-Histogram – Distribution of sepal width
-
-Scatter Plot – Sepal length vs. petal length, colored by species
+This work demonstrates how to perform simple exploratory data analysis and create clear, informative visualizations using Python libraries like pandas, matplotlib, seaborn, and scikit-learn.
